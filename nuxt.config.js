@@ -3,7 +3,7 @@ export default {
 	//   host: '0.0.0.0',
   //   port: 8085
   // },
-  // ssr: false,
+  ssr: false,
 
   head: {
     titleTemplate: '%s',
