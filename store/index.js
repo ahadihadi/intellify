@@ -10,8 +10,8 @@ export const state = () => ({
     notifications: [],
     is_admin: false,
   },
-  // media_url: 'https://hadiahadi.pythonanywhere.com/media/',
-  media_url: 'http://127.0.0.1:656/media/',
+  media_url: 'https://hadiahadi.pythonanywhere.com/media/',
+  // media_url: 'http://127.0.0.1:656/media/',
 })
 
 export const getters = {

@@ -1,9 +1,9 @@
 export default {
-  server: {
-	  host: '0.0.0.0',
-    port: 8085
-  },
-  ssr: false,
+  // server: {
+	//   host: '0.0.0.0',
+  //   port: 8085
+  // },
+  // ssr: false,
 
   head: {
     titleTemplate: '%s',
@@ -68,4 +68,6 @@ export default {
   build: {
     transpile: ['vuetify/lib'],
   },
+  mode: 'static',
+  router: { base: '/intellify/' },
 }
